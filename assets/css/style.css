@@ -8,7 +8,9 @@
     --secondary-color:#aa9581; /* Light brown */
     --highlight-color:#416a8e; /* blue */
     --light-highlight-color:#7a9fc2; /* light blue */
-    
+ 
+ 
+    /*Global styles  */
 
 }
 body {
@@ -18,16 +20,36 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
-.container, .row{
+
+.section {
+    margin:  2rem 0;
+}
+
+/* Navbar Section */
+#navbar {
+   background-color: var(--primary-color);
+}
+
+#navbar .logo{
+    width: 30px;
+}
+
+/* Header */
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
+/* .container, .row{
     border: solid 2px black;
    
 }
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
